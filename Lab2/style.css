@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2a6f97;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header h1 {
+    font-weight: 650;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+img {
+    border: 2px solid rgba(233, 235, 242, 0.1);
+    border-radius: 45%;
+    /*make the image a circle having radius as 45% of orginal dimensions*/
+}
+
+#backtotop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #2a6f97;
+    border: 2px solid black;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #2a6f97;
+    width: 600px;
+}
+
+th {
+    background-color: #2a6f97;
+    color: white;
+    padding: 12px;
+}
+
+th {
+    padding: 12px;
+}
+
+button {
+    background-color: #2a6f97;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+form table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2a6f97;
+    padding: 20px;
+}
+
+form td {
+    padding: 10px;
+}
+
+footer {
+    background-color: #2a6f97;
+    color: white;
+    height: 30px;
+}
+
