@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="start">
+   <header>
+      <h1>Samarth Sharma</h1>
+      <nav class="nav">
+         <div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Technical Skills</a>
+            <a href="#contact">Contact Me</a>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <section id="about">
+         <div>
+            <h2>About Me:</h2>
+            <img src="me.jpg" alt="My Picture" height="300" width="250">
+            <h3>Welcome!</h3>
+            <p>Hello! I am Samarth Sharma pursuing my Btech Degree in CSE (AI ML) from KR Mangalam University, currently a fresher.</p>
+            <p>I am an aspiring AI and ML enthusiast with a passion for coding and problem-solving. I enjoy learning new technologies and applying them to real-world scenarios. In my free time I like to play chess , experiment with coding projects, and stay updated with the latest trends in AI and ML.
+            </p>
+         </div>
+      </section>
+      <hr>
+      <section id="skills">
+         <div>
+            <h2>Technical Skills</h2>
+            <table border="1" cellpadding="6">
+               <tr>
+                  <th>Skills</th>
+                  <th>Level</th>
+               </tr>
+               <tr>
+                  <td>HTML</td>
+                  <td>Intermediate</td>
+               </tr>
+               <tr>
+                  <td>Python</td>
+                  <td>Intermediate</td>
+               </tr>
+               <tr>
+                  <td>MySQL</td>
+                  <td>Beginner</td>
+               </tr>
+               <tr>
+                  <td>CSS</td>
+                  <td>Intermediate</td>
+               </tr>
+            </table>
+         </div>
+      </section>
+      <hr>
+      <section id="projects">
+         <div>
+            <h2>Current Projects</h2>
+
+            <b>Train Reservation:</b><br> A program which shows user available Train and seats available in the different classes.<br>
+            <b>ATM:</b><br> A program which asks user to create their account and store money.<br>
+            <b>Quiz:</b><br> A short quiz consisting of questions related to chess and cricket.<br>
+
+         </div>
+      </section>
+      <hr>
+      <section id="contact">
+         <div>
+            <h2>Contact Me</h2>
+            <form>
+               <table border="1" cellpadding="6" bordercolor="blue">
+                  <tr>
+                     <td><label for="name">Name:</label></td>
+                     <td><input type="text" id="name" name="name" placeholder="Enter Name"></td>
+                  </tr>
+                  <tr>
+                     <td><label for="email">E-Mail:</label></td>
+                     <td><input type="email" id="email" name="email" placeholder="Enter email"></td>
+                  </tr>
+                  <tr>
+                     <td><label for="message">Message:</label></td>
+                     <td><textarea id="message" name="message" rows="4" cols="20"
+                           placeholder="Enter your message here"></textarea></td>
+                  </tr>
+                  <tr>
+                     <td colspan="2"><button type="submit">Submit!</button></td>
+                  </tr>
+               </table>
+            </form>
+         </div>
+      </section>
+      <a href="#start" id="backtotop">Back to Top</a>
+   </main>
+   <footer>&copy; My First Website</footer>
+</body>
+
+</html>
