@@ -3,7 +3,6 @@ body {
     font-family: "Roboto Slab", serif;
    background: #f5f5f5;
 }
-
 header {
    background: #094a93;
    color: white;
@@ -12,15 +11,12 @@ header {
    justify-content: space-between;
    align-items: center;
 }
-
 header nav a {
    color: white;
    margin-left: 15px;
    text-decoration: none;
    font-size: 14px;
 }
-
-
 #hero {
    display: flex;
    justify-content: space-between;
@@ -28,31 +24,25 @@ header nav a {
    padding: 30px;
    background: white;
 }
-
 #hero img {
    width: 200px;
    height: 200px;
    border-radius: 50%;
 }
-
 .highlight {
    color: #ff6b40;
 }
-
 section {
    padding: 20px;
    margin-top: 10px;
 }
-
 h2 {
    margin-bottom: 10px;
 }
-
 .skills-box {
    display: flex;
    gap: 10px;
 }
-
 .card {
    background: #094a93;
    color: white;
@@ -60,14 +50,12 @@ h2 {
    text-align: center;
    flex: 1;
 }
-
 .project-card {
    background: white;
    padding: 20px;
    border: 1px solid #ddd;
    margin-bottom: 15px;
 }
-
 form {
    background: white;
    padding: 20px;
@@ -75,14 +63,12 @@ form {
    margin: auto;
    border: 1px solid #ddd;
 }
-
 input, textarea {
    width: 100%;
    padding: 8px;
    margin-bottom: 10px;
    border: 1px solid #094a93;
 }
-
 button {
    width: 100%;
    padding: 10px;
@@ -90,7 +76,6 @@ button {
    color: white;
    border: none;
 }
-
 footer {
    background: #094a93;
    color: white;
@@ -98,7 +83,6 @@ footer {
    padding: 10px;
    margin-top: 20px;
 }
-
 #backtop {
    position: fixed;
    bottom: 20px;
@@ -113,13 +97,8 @@ footer {
     color: #ff6b40;
     animation: colorChange 3s infinite alternate;
 }
-
 @keyframes colorChange {
     0% { color: #ff6b40; }
     50% { color: #094a93; }
     100% { color: #ff6b40; }
 }
-
-
-
-
