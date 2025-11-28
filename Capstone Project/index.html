@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DreamHome - Find Your Home</title>
+<link rel= "stylesheet" href= "styles.css">
+</head>
+<body>
+<header role="banner">
+  <nav class="container" role="navigation" aria-label="Primary Navigation">
+    <div class="logo" tabindex="0">DreamHome</div>
+    <div class="nav-links">
+      <a href="#properties" tabindex="0">Properties</a>
+      <a href="#agents" tabindex="0">Agents</a>
+      <a href="#why" tabindex="0">Why Us</a>
+      <a href="#blog" tabindex="0">Blog</a>
+      <a href="#contact" tabindex="0">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" aria-label="Find your home hero section">
+  <div class="hero-content">
+    <h1 tabindex="0">Find Your Home</h1>
+    <p tabindex="0">Discover the best properties at the best prices.</p>
+  </div>
+</section>
+
+<section class="search-bar container" aria-label="Property search form">
+  <input type="text" name="location" aria-label="Location" placeholder="Location" />
+  <select aria-label="Price">
+    <option selected disabled value="">Price</option>
+    <option>$0 - $250k</option>
+    <option>$250k - $500k</option>
+    <option>$500k - $750k</option>
+    <option>$750k - $1M</option>
+    <option>$1M+</option>
+  </select>
+  <select aria-label="Bedrooms">
+    <option selected disabled value="">Bedrooms</option>
+    <option>1 Bed</option>
+    <option>2 Beds</option>
+    <option>3 Beds</option>
+    <option>4+ Beds</option>
+  </select>
+  <select aria-label="Property Type">
+    <option selected disabled value="">Type</option>
+    <option>House</option>
+    <option>Villa</option>
+    <option>Townhouse</option>
+    <option>Apartment</option>
+  </select>
+  <button type="button" aria-label="Search properties">Search</button>
+</section>
+
+<main>
+
+  <section id="properties" class="container" aria-labelledby="latest-properties-heading">
+    <h2 id="latest-properties-heading" class="section-title">Latest Properties</h2>
+    <div class="properties-grid">
+      <article class="property-card" tabindex="0" aria-label="Modern Family House in Los Angeles, $950,000">
+        <div class="property-image">
+          <img src="Modern Family House.avif" alt="Modern Family House" loading="lazy"/>
+        </div>
+        <div class="property-info-wrapper">
+          <div class="property-price">$950,000</div>
+          <div class="property-title">Modern Family House</div>
+          <p class="property-description">
+            4 Beds • 3 Baths • 2,300 sqft<br />
+            Los Angeles, CA
+          </p>
+        </div>
+      </article>
+
+      <article class="property-card" tabindex="0" aria-label="Luxury Villa in Miami, $1,200,000">
+        <div class="property-image">
+          <img src="Luxury villa.jpg" alt="Luxury Villa." loading="lazy"/>
+        </div>
+        <div class="property-info-wrapper">
+          <div class="property-price">$1,200,000</div>
+          <div class="property-title">Luxury Villa</div>
+          <p class="property-description">
+            5 Beds • 4 Baths • 3,000 sqft<br />
+            Miami, FL
+          </p>
+        </div>
+      </article>
+
+      <article class="property-card" tabindex="0" aria-label="Cozy Townhouse in Seattle, $650,000">
+        <div class="property-image">
+          <img src="Cozy Townhouse.jpg" alt="Cozy Townhouse" loading="lazy"/>
+        </div>
+        <div class="property-info-wrapper">
+          <div class="property-price">$650,000</div>
+          <div class="property-title">Cozy Townhouse</div>
+          <p class="property-description">
+            3 Beds • 2 Baths • 1,800 sqft<br />
+            Seattle, WA
+          </p>
+        </div>
+      </article>
+
+      <article class="property-card" tabindex="0" aria-label="Downtown Apartment in New York, $850,000">
+        <div class="property-image">
+          <img src="Downtown Apartment.jpg" alt="Downtown Apartment" loading="lazy"/>
+        </div>
+        <div class="property-info-wrapper">
+          <div class="property-price">$850,000</div>
+          <div class="property-title">Downtown Apartment</div>
+          <p class="property-description">
+            2 Beds • 2 Baths • 1,200 sqft<br />
+            New York, NY
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <h2 id="property-detail-heading" class="Property-title" >Property Detail</h2>
+
+  <section aria-labelledby="property-detail-heading" class="property-detail" role="region">
+        <img src="Luxury villa.jpg" alt="Luxury villa kitchen and dining" loading="lazy" />
+    <div class="property-detail-info">
+      <h3 tabindex="0">Luxury Villa in Miami</h3>
+      <p tabindex="0">
+        Experience the ultimate in luxury living with this stunning villa featuring 5 bedrooms, 4 bathrooms, a spacious kitchen, and breathtaking ocean views. Located in the heart of Miami, this home offers elegance and serenity.
+      </p>
+      <div class="price" tabindex="0">$1,200,000</div>
+    </div>
+  </section>
+
+  <section id="agents" aria-labelledby="agents-heading" class="container">
+    <h2 id="agents-heading" class="section-title">Featured Agents</h2>
+    <div class="agents-grid">
+      <article class="agent-card" tabindex="0" aria-label="Agent John Carter, Senior Agent">
+        <img src="Jhon Carter.jpg" alt="Photo of John Carter" class="agent-photo" loading="lazy"/>
+        <div class="agent-name">John Carter</div>
+        <div class="agent-role">Senior Agent</div>
+        <p class="agent-description">10+ years of experience in luxury properties.</p>
+      </article>
+      <article class="agent-card" tabindex="0" aria-label="Agent Emily Stone, Property Specialist">
+        <img src="Emily Stone.jpg" alt="Photo of Emily Stone" class="agent-photo" loading="lazy"/>
+        <div class="agent-name">Emily Stone</div>
+        <div class="agent-role">Property Specialist</div>
+        <p class="agent-description">Expert in family homes and apartments.</p>
+      </article>
+      <article class="agent-card" tabindex="0" aria-label="Agent Michael Lee, Commercial Expert">
+        <img src="Michael Lee.jpg" alt="Photo of Michael Lee" class="agent-photo" loading="lazy"/>
+        <div class="agent-name">Michael Lee</div>
+        <div class="agent-role">Commercial Expert</div>
+        <p class="agent-description">Specialist in commercial and investment properties.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="why" aria-labelledby="why-heading" class="container">
+    <h2 id="why-heading" class="section-title">Why Choose Us</h2>
+    <div class="why-choose-grid">
+      <article class="why-card" tabindex="0" aria-label="Trusted Experts: Our agents are certified and highly experienced.">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L15 8L22 9L17 14L18 21L12 18L6 21L7 14L2 9L9 8L12 2Z"/></svg>
+        <div class="why-title">Trusted Experts</div>
+        <p class="why-desc">Our agents are certified and highly experienced.</p>
+      </article>
+      
+      <article class="why-card" tabindex="0" aria-label="24/7 Support: We are always available to assist you.">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2"/></svg>
+        <div class="why-title">24/7 Support</div>
+        <p class="why-desc">We are always available to assist you.</p>
+      </article>
+      
+      <article class="why-card" tabindex="0" aria-label="Wide Selection: End properties that match your needs and budget.">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="10" rx="2" ry="2"/><path d="M7 7v10"/><path d="M17 7v10"/></svg>
+        <div class="why-title">Wide Selection</div>
+        <p class="why-desc">End properties that match your needs and budget.</p>
+      </article>
+      
+      <article class="why-card" tabindex="0" aria-label="Best Deals: Get the best prices and exclusive offers.">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L13 8H19L14 12L15 18L12 14L9 18L10 12L5 8H11L12 2Z"/></svg>
+        <div class="why-title">Best Deals</div>
+        <p class="why-desc">Get the best prices and exclusive offers.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="stats-section" aria-label="Company statistics">
+    <div class="stats-wrapper container">
+      <article class="stat-item" tabindex="0" aria-label="Properties Sold: 1200 plus">
+        <div class="stat-number">1,200+</div>
+        <div class="stat-label">Properties Sold</div>
+      </article>
+      <article class="stat-item" tabindex="0" aria-label="Happy Clients: 350">
+        <div class="stat-number">350</div>
+        <div class="stat-label">Happy Clients</div>
+      </article>
+      <article class="stat-item" tabindex="0" aria-label="Years Experience: 15">
+        <div class="stat-number">15</div>
+        <div class="stat-label">Years Experience</div>
+      </article>
+      <article class="stat-item" tabindex="0" aria-label="Expert Agents: 30">
+        <div class="stat-number">30</div>
+        <div class="stat-label">Expert Agents</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="blog" aria-labelledby="blog-posts-heading" class="container">
+    <h2 id="blog-posts-heading" class="section-title">Latest Blog Posts</h2>
+    <div class="blog-grid">
+      <article class="blog-card" tabindex="0" aria-label="Tips for First-Time Home Buyers blog post">
+        <div class="blog-image">
+          <img src="galaxy.jpeg" alt="Starry night sky" loading="lazy"/>
+        </div>
+        <div class="blog-content">
+          <h3 class="blog-title">Tips for First-Time Home Buyers</h3>
+          <p class="blog-desc">Learn the essential insights to help you make smarter decisions and find your dream home with our expert tips.</p>
+          <a href="#" class="blog-readmore" aria-label="Read more about Tips for First-Time Home Buyers">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card" tabindex="0" aria-label="How to Stage Your Home for Sale blog post">
+        <div class="blog-image">
+          <img src="hill station.avif" alt="Beautiful forest landscape" loading="lazy" />
+        </div>
+        <div class="blog-content">
+          <h3 class="blog-title">How to Stage Your Home for Sale</h3>
+          <p class="blog-desc">Discover the secrets to making your property stand out and attract more buyers.</p>
+          <a href="#" class="blog-readmore" aria-label="Read more about How to Stage Your Home for Sale">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card" tabindex="0" aria-label="Understanding Mortgage Rates blog post">
+        <div class="blog-image">
+          <img src="Downtown Apartment.jpg" alt="Modern apartment bedroom" loading="lazy" />
+        </div>
+        <div class="blog-content">
+          <h3 class="blog-title">Understanding Mortgage Rates</h3>
+          <p class="blog-desc">Get the low-down on mortgage rate trends and how they affect your buying power.</p>
+          <a href="#" class="blog-readmore" aria-label="Read more about Understanding Mortgage Rates">Read More</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="newsletter" aria-label="Subscribe to our newsletter">
+    <p tabindex="0">Get the latest property updates and news delivered to your inbox.</p>
+    <form autocomplete="off" aria-label="Subscribe to newsletter form" onsubmit="return false;">
+      <input type="email" name="email" aria-required="true" aria-label="Email address" placeholder="Your email address" />
+      <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact Us</h2>
+    <form autocomplete="off" aria-label="Contact form" onsubmit="return false;">
+      <input type="text" name="name" placeholder="Your Name" aria-required="true" aria-label="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" aria-required="true" aria-label="Your Email" required />
+      <input type="text" name="subject" placeholder="Subject" aria-required="true" aria-label="Subject" required />
+      <textarea name="message" placeholder="Your Message" aria-required="true" aria-label="Your Message" required></textarea>
+      <button type="submit" aria-label="Send message">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<footer role="contentinfo">
+  <div class="footer-container container" >
+    <div class="footer-col">
+      <h3>DreamHome</h3>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Investors</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#agents">Agents</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <address class="footer-contact">
+        123 Main St, Miami, FL<br />
+        <a href="mailto:info@dreamhome.com">info@dreamhome.com</a><br />
+        <a href="tel:+1234567890">+1 234 567 890</a>
+      </address>
+    </div>
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="#" aria-label="Facebook">Facebook</a></li>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom container" tabindex="0">
+    &copy; 2024 DreamHome Real Estate. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
